@@ -46,6 +46,7 @@ const init = () => {
   diceElement.classList.add('hidden');
 };
 init();
+
 //Rolling dice function
 btnRoll.addEventListener('click', e => {
   if (playing) {
